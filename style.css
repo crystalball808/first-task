@@ -1,0 +1,103 @@
+.flag {
+    margin-bottom: 4px;
+    border: 1px solid black;
+    width: 300px;
+    height: 200px;
+}
+
+.ukraine--outer {
+    background-color: yellow;
+}
+
+.ukraine--inner {
+    height: 100px;
+    background-color: blue;
+}
+
+.japan--outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.japan--inner {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 100%;
+}
+
+.iceland--outer {
+    background-color: rgb(177, 18, 18);
+    position: relative;
+}
+
+.topleft-square {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 75px;
+    background-color: rgb(19, 50, 144);
+    border-style: solid;
+    border-width: 0 10px 10px 0;
+    border-color: white;
+}
+
+.bottomleft-square {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 80px;
+    width: 75px;
+    background-color: rgb(19, 50, 144);
+    border-style: solid;
+    border-width: 10px 10px 0 0;
+    border-color: white;
+}
+
+.topright-square {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 80px;
+    width: 185px;
+    background-color: rgb(19, 50, 144);
+    border-style: solid;
+    border-width: 0 0 10px 10px;
+    border-color: white;
+}
+
+.bottomright-square {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 80px;
+    width: 185px;
+    background-color: rgb(19, 50, 144);
+    border-style: solid;
+    border-width: 10px 0 0 10px;
+    border-color: white;
+}
+
+.czech--outer {
+    position: relative;
+    background-color: red;
+}
+
+.czech--inner {
+    height: 100px;
+    background-color: white;
+}
+
+.triangle-right {
+    position:absolute;
+    top: 0;
+    width: 0;
+	height: 0;
+	border-top: 100px solid transparent;
+	border-left: 150px solid blue;
+	border-bottom: 100px solid transparent;
+}
+
+
